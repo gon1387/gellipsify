@@ -221,7 +221,6 @@ describe("GEllipsify",function(){
 							ellipsisCharCount = countCharacters(defaultEllipsis);
 							charCount = countCharacters($PlayGround.text());
 							wordCount = countWords($PlayGround.text().substr(0,charCount - ellipsisCharCount));
-							console.log($PlayGround.text().substr(0,charCount - ellipsisCharCount),$PlayGround.text())
 						});
 						it("should show exactly 15 words and 150 characters including the appended ellipsis",function(){
 							//word is major so it's chosen
